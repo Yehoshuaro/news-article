@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Surveillance: How Technology Controls Citizens | Global News</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .main-content {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .article-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .article-meta {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .article-image {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        .article-content {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .article-content p {
+            margin-bottom: 20px;
+        }
+
+        .sidebar h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #0066cc;
+            font-size: 14px;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Subtle horror effect */
+        .glitch {
+            animation: glitch 0.3s infinite;
+            display: inline-block;
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h1>Global News</h1>
+</div>
+<div class="container">
+    <div class="main-content">
+        <h2 class="article-title">Mass Surveillance: How Technology Controls Citizens</h2>
+        <div class="article-meta">
+            By Anna Kovalenko | Published: November 14, 2025, 08:30 AM
+        </div>
+        <img class="article-image" src="data:image/jpeg;base64,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" alt="Surveillance cameras">
+        <div class="article-content">
+            <p>In recent years, surveillance technology has become an inescapable part of daily life. Cameras on every corner, smart devices in homes, and algorithms tracking your every move online have created a world where <span class="glitch">privacy</span> is little more than a myth. A new investigation reveals that governments and corporations are using citizen data for control on an unprecedented scale.</p>
+            <p>According to a report by an independent group of researchers, over 80% of internet-connected devices collect data without explicit user consent. This includes not only smartphones and computers but also household appliances like smart refrigerators and TVs. <span class="glitch">Your conversations</span> may be recorded, your movements tracked, and your habits analyzed to build a digital profile.</p>
+            <p>Experts warn that if this trend continues, individual freedom could be at risk. “We’re moving toward a panopticon society,” said Dr. Elena Volkov, a cybersecurity analyst. “Every breath you take, every move you make—someone, or something, is watching you.”</p>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h3>Related Stories</h3>
+        <ul>
+            <li><a href="#">AI-Powered Cameras: Security or Intrusion?</a></li>
+            <li><a href="#">Smart Homes: Are They Spying on You?</a></li>
+            <li><a href="#">The Rise of Drone Surveillance in Cities</a></li>
+            <li><a href="#">Data Breaches Expose Millions of Users</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
